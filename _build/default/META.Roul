@@ -1,0 +1,6 @@
+description = ""
+requires = "ANSITerminal"
+archive(byte) = "roul.cma"
+archive(native) = "roul.cmxa"
+plugin(byte) = "roul.cma"
+plugin(native) = "roul.cmxs"

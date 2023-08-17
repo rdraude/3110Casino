@@ -1,0 +1,50 @@
+(lang dune 3.7)
+(name Roul)
+(sections (lib .) (libexec .) (doc ../../doc/Roul))
+(files
+ (lib
+  (META
+   dune-package
+   opam
+   roul.a
+   roul.cma
+   roul.cmi
+   roul.cmt
+   roul.cmx
+   roul.cmxa
+   roul.ml
+   roul__Roulette.cmi
+   roul__Roulette.cmt
+   roul__Roulette.cmti
+   roul__Roulette.cmx
+   roulette.ml
+   roulette.mli))
+ (libexec (roul.cmxs))
+ (doc (README.md)))
+(library
+ (name Roul)
+ (kind normal)
+ (archives (byte roul.cma) (native roul.cmxa))
+ (plugins (byte roul.cma) (native roul.cmxs))
+ (native_archives roul.a)
+ (requires ANSITerminal)
+ (main_module_name Roul)
+ (modes byte native)
+ (modules
+  (wrapped
+   (group
+    (alias
+     (obj_name roul)
+     (visibility public)
+     (kind alias)
+     (source (path Roul) (impl (path roul.ml-gen))))
+    (name Roul)
+    (modules
+     (module
+      (obj_name roul__Roulette)
+      (visibility public)
+      (source
+       (path Roulette)
+       (intf (path roulette.mli))
+       (impl (path roulette.ml))))))
+   (wrapped true))))

@@ -1,0 +1,24 @@
+lib: [
+  "_build/install/default/lib/Roul/META"
+  "_build/install/default/lib/Roul/dune-package"
+  "_build/install/default/lib/Roul/opam"
+  "_build/install/default/lib/Roul/roul.a"
+  "_build/install/default/lib/Roul/roul.cma"
+  "_build/install/default/lib/Roul/roul.cmi"
+  "_build/install/default/lib/Roul/roul.cmt"
+  "_build/install/default/lib/Roul/roul.cmx"
+  "_build/install/default/lib/Roul/roul.cmxa"
+  "_build/install/default/lib/Roul/roul.ml"
+  "_build/install/default/lib/Roul/roul__Roulette.cmi"
+  "_build/install/default/lib/Roul/roul__Roulette.cmt"
+  "_build/install/default/lib/Roul/roul__Roulette.cmti"
+  "_build/install/default/lib/Roul/roul__Roulette.cmx"
+  "_build/install/default/lib/Roul/roulette.ml"
+  "_build/install/default/lib/Roul/roulette.mli"
+]
+libexec: [
+  "_build/install/default/lib/Roul/roul.cmxs"
+]
+doc: [
+  "_build/install/default/doc/Roul/README.md"
+]

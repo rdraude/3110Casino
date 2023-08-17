@@ -1,0 +1,1 @@
+Simply navigate to the directory 3110Final/src and run make code

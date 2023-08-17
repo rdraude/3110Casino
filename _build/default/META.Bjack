@@ -1,0 +1,6 @@
+description = ""
+requires = "ANSITerminal"
+archive(byte) = "bjack.cma"
+archive(native) = "bjack.cmxa"
+plugin(byte) = "bjack.cma"
+plugin(native) = "bjack.cmxs"

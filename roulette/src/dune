@@ -1,0 +1,4 @@
+(library
+ (name roul)
+ (public_name Roul)
+ (libraries ANSITerminal))

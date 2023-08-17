@@ -1,0 +1,24 @@
+lib: [
+  "_build/install/default/lib/Bjack/META"
+  "_build/install/default/lib/Bjack/bjack.a"
+  "_build/install/default/lib/Bjack/bjack.cma"
+  "_build/install/default/lib/Bjack/bjack.cmi"
+  "_build/install/default/lib/Bjack/bjack.cmt"
+  "_build/install/default/lib/Bjack/bjack.cmx"
+  "_build/install/default/lib/Bjack/bjack.cmxa"
+  "_build/install/default/lib/Bjack/bjack.ml"
+  "_build/install/default/lib/Bjack/bjack__Blackjack.cmi"
+  "_build/install/default/lib/Bjack/bjack__Blackjack.cmt"
+  "_build/install/default/lib/Bjack/bjack__Blackjack.cmti"
+  "_build/install/default/lib/Bjack/bjack__Blackjack.cmx"
+  "_build/install/default/lib/Bjack/blackjack.ml"
+  "_build/install/default/lib/Bjack/blackjack.mli"
+  "_build/install/default/lib/Bjack/dune-package"
+  "_build/install/default/lib/Bjack/opam"
+]
+libexec: [
+  "_build/install/default/lib/Bjack/bjack.cmxs"
+]
+doc: [
+  "_build/install/default/doc/Bjack/README.md"
+]

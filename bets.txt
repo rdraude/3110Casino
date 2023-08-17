@@ -1,0 +1,48 @@
+This is a list of all valid bets:
+
+Square (Green Single)
+    Square (Red 1)
+    Square (Black 2)
+    Square (Red 3)
+    Square (Black 4)
+    Square (Red 5)
+    Square (Black 6)
+    Square (Red 7)
+    Square (Black 8)
+    Square (Red 9)
+    Square (Black 10)
+    Square (Black 11)
+    Square (Red 12)
+    Square (Black 13)
+    Square (Red 14)
+    Square (Black 15)
+    Square (Red 16)
+    Square (Black 17)
+    Square (Red 18)
+    Square (Red 19)
+    Square (Black 20)
+    Square (Red 21)
+    Square (Black 22)
+    Square (Red 23)
+    Square (Black 24)
+    Square (Red 25)
+    Square (Black 26)
+    Square (Red 27)
+    Square (Black 28)
+    Square (Black 29)
+    Square (Red 30)
+    Square (Black 31)
+    Square (Red 32)
+    Square (Black 33)
+    Square (Red 34)
+    Square (Black 35)
+    Square (Red 36)
+    Square (Green Double)
+    Color Red
+    Color Black
+    Color Green
+    Dozen One_to_Twelve
+    Dozen Thirteen_to_Twentyfour
+    Dozen Twentyfive_to_Thirtysix
+    Half First
+    Half Second

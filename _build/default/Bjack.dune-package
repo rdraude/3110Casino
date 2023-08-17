@@ -1,0 +1,50 @@
+(lang dune 3.7)
+(name Bjack)
+(sections (lib .) (libexec .) (doc ../../doc/Bjack))
+(files
+ (lib
+  (META
+   bjack.a
+   bjack.cma
+   bjack.cmi
+   bjack.cmt
+   bjack.cmx
+   bjack.cmxa
+   bjack.ml
+   bjack__Blackjack.cmi
+   bjack__Blackjack.cmt
+   bjack__Blackjack.cmti
+   bjack__Blackjack.cmx
+   blackjack.ml
+   blackjack.mli
+   dune-package
+   opam))
+ (libexec (bjack.cmxs))
+ (doc (README.md)))
+(library
+ (name Bjack)
+ (kind normal)
+ (archives (byte bjack.cma) (native bjack.cmxa))
+ (plugins (byte bjack.cma) (native bjack.cmxs))
+ (native_archives bjack.a)
+ (requires ANSITerminal)
+ (main_module_name Bjack)
+ (modes byte native)
+ (modules
+  (wrapped
+   (group
+    (alias
+     (obj_name bjack)
+     (visibility public)
+     (kind alias)
+     (source (path Bjack) (impl (path bjack.ml-gen))))
+    (name Bjack)
+    (modules
+     (module
+      (obj_name bjack__Blackjack)
+      (visibility public)
+      (source
+       (path Blackjack)
+       (intf (path blackjack.mli))
+       (impl (path blackjack.ml))))))
+   (wrapped true))))
